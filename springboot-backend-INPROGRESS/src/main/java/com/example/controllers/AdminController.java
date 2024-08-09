@@ -1,4 +1,4 @@
-package com.javaguides.springboot.Controller;
+package com.example.controllers;
 
 import java.util.Optional;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javaguides.springboot.Entities.AdminLogin;
-import com.javaguides.springboot.Model.AdminModel;
+import com.example.entities.AdminLogin;
+import com.example.services.AdminModel;
 
 @RestController
 @RequestMapping("/api")

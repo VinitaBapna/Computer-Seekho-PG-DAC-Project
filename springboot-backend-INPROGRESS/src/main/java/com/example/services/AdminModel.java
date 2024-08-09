@@ -1,13 +1,12 @@
-package com.javaguides.springboot.Model;
+package com.example.services;
 
 import java.util.Optional;
 
-import com.javaguides.springboot.Entities.AdminLogin;
+import com.example.entities.AdminLogin;
 
 public interface AdminModel 
 {
 	void addAdmin(AdminLogin admin);
-	//Optional<AdminLogin> getAdmin(String name);
 	Optional<AdminLogin> getAdmin(AdminLogin admin);
 
 }
