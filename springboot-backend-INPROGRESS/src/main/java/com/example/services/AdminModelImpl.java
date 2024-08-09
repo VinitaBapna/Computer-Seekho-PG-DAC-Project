@@ -1,12 +1,12 @@
-package com.javaguides.springboot.Model;
+package com.example.services;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.javaguides.springboot.Entities.AdminLogin;
-import com.javaguides.springboot.Repository.AdminRepository;
+import com.example.entities.AdminLogin;
+import com.example.repositories.AdminRepository;
 
 @Service
 public class AdminModelImpl implements AdminModel
